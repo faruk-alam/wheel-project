@@ -44,9 +44,9 @@
 .cabin{
     height: 20%;
     width: 20%;
-    background-color: red;
+    background-color: rgb(208, 255, 0);
     position: absolute;
-    animation: cabin 10s ease-in-out infinite;
+    animation: cabin 5s linear infinite;
 }
 .cabin:nth-of-type(1){
     top: 32px;
@@ -91,14 +91,14 @@
 @keyframes cabin {
     0%{
         transform: rotate(0deg);
-        background-color: red;
+        background-color: rgb(47, 0, 255);
     }
     50%{
-        background-color: purple;
+        background-color: rgb(128, 0, 0);
 
     }
     100%{
         transform: rotate(360deg);
-        background-color: yellow;
+        background-color: green;
     }
 }
